@@ -43,11 +43,11 @@ function network_from_data(name)
     #   sigmaN and sigmaT: random initialization of messages.
 
     if name == "Hungary"
-        file = "REF9_HR_edges.txt"
+        file = "REF9_HU_edges.txt"
     elseif name == "Romania"
         file = "REF9_RO_edges.txt"
     elseif name == "Croatia"
-        file = "REF9_HU_edges.txt"
+        file = "REF9_HR_edges.txt"
     end
     data = readdlm(file, Int64) .+ 1   # Make the node ID starts from 1
     N = maximum(data)
