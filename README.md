@@ -5,6 +5,9 @@ This repository contains:
 
 - 'GC_from_generator.jl': Implementation of the (averaged) message passing algorithm and Monte Carlo simulation on random poisson and scale-free networks.
 - 'GC_from_dataset.jl': Implementation of the (averaged) message passing algorithm on real dataset (Friendship networks from the music streaming site Deezer in the countries of Romania, Hungary and Croatia). The original data can be found at https://github.com/benedekrozemberczki/GEMSEC.
+- 'REF9_HR_edges.txt': Data of Croatia
+- 'REF9_HU_edges.txt': Data of Hungary
+- 'REF9_RO_edges.txt': Data of Romania
 
 # How to use
 The code is implemented in Julia 1.6. Packages used are `DelimitedFiles` and `Plots`.
