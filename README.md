@@ -12,7 +12,7 @@ The code is implemented in Julia 1.6. Packages used are DelimitedFiles and Plots
 # Citing
 If you find the code useful in your research, please cite the following paper:
 
-'''latex
+```latex
 @article{PhysRevResearch.3.L012014,
   title = {Message-passing approach to epidemic tracing and mitigation with apps},
   author = {Bianconi, Ginestra and Sun, Hanlin and Rapisardi, Giacomo and Arenas, Alex},
@@ -27,4 +27,4 @@ If you find the code useful in your research, please cite the following paper:
   doi = {10.1103/PhysRevResearch.3.L012014},
   url = {https://link.aps.org/doi/10.1103/PhysRevResearch.3.L012014}
 }
-'''
+```
