@@ -7,7 +7,7 @@ This repository contains:
 - 'GC_from_dataset.jl': Implementation of the (averaged) message passing algorithm on real dataset (Friendship networks from the music streaming site Deezer in the countries of Romania, Hungary and Croatia). The original data can be found at https://github.com/benedekrozemberczki/GEMSEC.
 
 # How to use
-The code is implemented in Julia 1.6. Packages used are DelimitedFiles and Plots.
+The code is implemented in Julia 1.6. Packages used are `DelimitedFiles` and `Plots`.
 
 # Citing
 If you find the code useful in your research, please cite the following paper:
@@ -28,3 +28,7 @@ If you find the code useful in your research, please cite the following paper:
   url = {https://link.aps.org/doi/10.1103/PhysRevResearch.3.L012014}
 }
 ```
+# License
+This code can be redistributed and/or modified under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+  
+This program is distributed ny the authors in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
