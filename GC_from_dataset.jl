@@ -23,9 +23,8 @@
 #     
 ####################################################################################
 
-# This program implements the (averaged) message passing algorithm on real dataset 
-# (Friendship networks from the music streaming site Deezer in the countries of Romania, 
-# Hungary and Croatia)
+# This program implements the (averaged) message passing algorithm and Monte Carlo simulation on real datasets
+# (Friendship networks from the music streaming site Deezer in the countries of Romania, Hungary and Croatia)
 
 
 using DelimitedFiles
