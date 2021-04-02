@@ -1,6 +1,8 @@
 # Epidemic tracing with app
 Code for message-passing algorithm and Monte Carlo simulation on random networks and real-world networks.
 
+Link to the paper: https://doi.org/10.1103/PhysRevResearch.3.L012014.
+
 This repository contains:
 
 - 'GC_from_generator.jl': Implementation of the (averaged) message passing algorithm and Monte Carlo simulation on random poisson and scale-free networks.
