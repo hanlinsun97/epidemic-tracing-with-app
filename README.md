@@ -5,7 +5,7 @@ This repository contains:
 
 - 'GC_from_generator.jl': Implementation of the (averaged) message passing algorithm and Monte Carlo simulation on random poisson and scale-free networks.
 - 'GC_from_dataset.jl': Implementation of the (averaged) message passing algorithm on real datasets (Friendship networks from the music streaming site Deezer in the countries of Romania, Hungary and Croatia). The original data can be found at https://github.com/benedekrozemberczki/GEMSEC.
-- 'GC_MP_from_generator.c': Message passing algorithm on random Poisson network. Implemented in C. Output is a txt file containing three columns `$p$` (Probability of retaining a link), `$\rho$` (probability of adopting the app) and `$R$` (fraction of node in the giant component).
+- 'GC_MP_from_generator.c': Message passing algorithm on random Poisson network. Implemented in C. Output is a txt file containing three columns p (Probability of retaining a link), rho (probability of adopting the app) and R (fraction of node in the giant component).
 - 'GC_MC_from_generator.c': Monte Carlo simulation on random Poisson network, implemented in C. 
 - 'GC_MP_from_dataset.c': Message Passing algorithm on real datasets, implemented in C. 
 - 'GC_MC_from_dataset.c': Monte Carlo simulation on real datasets, implemented in C. 
